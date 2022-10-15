@@ -1,0 +1,273 @@
+--[[
+██████╗░██╗░░░░░░█████╗░░█████╗░██████╗░██╗░░░██╗██╗░░██╗░█████╗░██╗░░██╗
+██╔══██╗██║░░░░░██╔══██╗██╔══██╗██╔══██╗╚██╗░██╔╝██║░░██║██╔══██╗╚██╗██╔╝
+██████╦╝██║░░░░░██║░░██║██║░░██║██║░░██║░╚████╔╝░███████║███████║░╚███╔╝░
+██╔══██╗██║░░░░░██║░░██║██║░░██║██║░░██║░░╚██╔╝░░██╔══██║██╔══██║░██╔██╗░
+██████╦╝███████╗╚█████╔╝╚█████╔╝██████╔╝░░░██║░░░██║░░██║██║░░██║██╔╝╚██╗
+╚═════╝░╚══════╝░╚════╝░░╚════╝░╚═════╝░░░░╚═╝░░░╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝
+--]]
+
+local ScreenGui = Instance.new("ScreenGui")
+local MainFrame = Instance.new("Frame")
+local Power = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local InfJump = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local Space = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local Time = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local Reality = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local AutoFarm = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local WalkSpeed = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+local UICorner_8 = Instance.new("UICorner")
+local StopFarm = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local UICorner_10 = Instance.new("UICorner")
+
+
+ScreenGui.Parent = game.CoreGui
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = ScreenGui
+MainFrame.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+MainFrame.Position = UDim2.new(0.317037046, 0, 0.387654334, 0)
+MainFrame.Size = UDim2.new(0, 652, 0, 343)
+
+Power.Name = "Power"
+Power.Parent = MainFrame
+Power.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Power.Position = UDim2.new(0.033742331, 0, 0.122448981, 0)
+Power.Size = UDim2.new(0, 176, 0, 56)
+Power.Font = Enum.Font.SourceSans
+Power.Text = "Power"
+Power.TextColor3 = Color3.fromRGB(0, 0, 0)
+Power.TextScaled = true
+Power.TextSize = 14.000
+Power.TextWrapped = true
+
+UICorner.Parent = Power
+
+InfJump.Name = "InfJump"
+InfJump.Parent = MainFrame
+InfJump.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+InfJump.Position = UDim2.new(0.696318984, 0, 0.416909635, 0)
+InfJump.Size = UDim2.new(0, 176, 0, 56)
+InfJump.Font = Enum.Font.SourceSans
+InfJump.Text = "InfJump"
+InfJump.TextColor3 = Color3.fromRGB(0, 0, 0)
+InfJump.TextScaled = true
+InfJump.TextSize = 14.000
+InfJump.TextWrapped = true
+
+UICorner_2.Parent = InfJump
+
+Space.Name = "Space"
+Space.Parent = MainFrame
+Space.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Space.Position = UDim2.new(0.033742331, 0, 0.413994193, 0)
+Space.Size = UDim2.new(0, 176, 0, 56)
+Space.Font = Enum.Font.SourceSans
+Space.Text = "Space"
+Space.TextColor3 = Color3.fromRGB(0, 0, 0)
+Space.TextScaled = true
+Space.TextSize = 14.000
+Space.TextWrapped = true
+
+UICorner_3.Parent = Space
+
+Time.Name = "Time"
+Time.Parent = MainFrame
+Time.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Time.Position = UDim2.new(0.365030676, 0, 0.122448981, 0)
+Time.Size = UDim2.new(0, 176, 0, 56)
+Time.Font = Enum.Font.SourceSans
+Time.Text = "Time"
+Time.TextColor3 = Color3.fromRGB(0, 0, 0)
+Time.TextScaled = true
+Time.TextSize = 14.000
+Time.TextWrapped = true
+
+UICorner_4.Parent = Time
+
+Reality.Name = "Reality"
+Reality.Parent = MainFrame
+Reality.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Reality.Position = UDim2.new(0.696318984, 0, 0.122448981, 0)
+Reality.Size = UDim2.new(0, 176, 0, 56)
+Reality.Font = Enum.Font.SourceSans
+Reality.Text = "Reality"
+Reality.TextColor3 = Color3.fromRGB(0, 0, 0)
+Reality.TextScaled = true
+Reality.TextSize = 14.000
+Reality.TextWrapped = true
+
+UICorner_5.Parent = Reality
+
+AutoFarm.Name = "AutoFarm"
+AutoFarm.Parent = MainFrame
+AutoFarm.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+AutoFarm.Position = UDim2.new(0.0337423086, 0, 0.711370289, 0)
+AutoFarm.Size = UDim2.new(0, 176, 0, 56)
+AutoFarm.Font = Enum.Font.SourceSans
+AutoFarm.Text = "AutoFarm"
+AutoFarm.TextColor3 = Color3.fromRGB(0, 0, 0)
+AutoFarm.TextScaled = true
+AutoFarm.TextSize = 14.000
+AutoFarm.TextWrapped = true
+
+UICorner_6.Parent = AutoFarm
+
+WalkSpeed.Name = "WalkSpeed"
+WalkSpeed.Parent = MainFrame
+WalkSpeed.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+WalkSpeed.Position = UDim2.new(0.365030676, 0, 0.413994193, 0)
+WalkSpeed.Size = UDim2.new(0, 176, 0, 56)
+WalkSpeed.Font = Enum.Font.SourceSans
+WalkSpeed.Text = "WalkSpeed"
+WalkSpeed.TextColor3 = Color3.fromRGB(0, 0, 0)
+WalkSpeed.TextScaled = true
+WalkSpeed.TextSize = 14.000
+WalkSpeed.TextWrapped = true
+
+UICorner_7.Parent = WalkSpeed
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 0, 0)), ColorSequenceKeypoint.new(0.00, Color3.fromRGB(204, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(67, 0, 0))}
+UIGradient.Parent = MainFrame
+
+UICorner_8.Parent = MainFrame
+
+StopFarm.Name = "StopFarm"
+StopFarm.Parent = MainFrame
+StopFarm.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+StopFarm.Position = UDim2.new(0.696318984, 0, 0.711370289, 0)
+StopFarm.Size = UDim2.new(0, 176, 0, 56)
+StopFarm.Font = Enum.Font.SourceSans
+StopFarm.Text = "StopFarm"
+StopFarm.TextColor3 = Color3.fromRGB(0, 0, 0)
+StopFarm.TextScaled = true
+StopFarm.TextSize = 14.000
+StopFarm.TextWrapped = true
+
+UICorner_9.Parent = StopFarm
+
+TextLabel.Parent = MainFrame
+TextLabel.BackgroundColor3 = Color3.fromRGB(139, 0, 0)
+TextLabel.Position = UDim2.new(0.346407652, 0, 0.718043447, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 50)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Space Code is 259631"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+UICorner_10.Parent = TextLabel
+
+-- Scripts:
+
+local function TLKP_fake_script() -- Power.LocalScript 
+	local script = Instance.new('LocalScript', Power)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-551.734863, 22.3379974, -805.73938, 0.317934096, 0.229608834, 0.919890046, -0.0666170046, 0.973244667, -0.219902113, -0.945769548, 0.0086340541, 0.324723512)
+	end)
+end
+coroutine.wrap(TLKP_fake_script)()
+local function MQXHNFD_fake_script() -- InfJump.LocalScript 
+	local script = Instance.new('LocalScript', InfJump)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local InfiniteJumpEnabled = true
+		game:GetService("UserInputService").JumpRequest:connect(function()
+			if InfiniteJumpEnabled then
+				game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+			end
+		end)
+	end)
+end
+coroutine.wrap(MQXHNFD_fake_script)()
+local function RVTVSJN_fake_script() -- Space.LocalScript 
+	local script = Instance.new('LocalScript', Space)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-8.49208355, 56.1105766, 775.356445, -0.052959051, 1.49412696e-08, -0.998596668, 2.29610233e-08, 1, 1.37445637e-08, 0.998596668, -2.22009024e-08, -0.052959051)
+	end)
+end
+coroutine.wrap(RVTVSJN_fake_script)()
+local function HHGCZO_fake_script() -- Time.LocalScript 
+	local script = Instance.new('LocalScript', Time)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(102.754021, 133.282227, 488.672363, -0.874613047, -1.80837367e-09, -0.484821618, -4.25337277e-09, 1, 3.94306232e-09, 0.484821618, 5.51078072e-09, -0.874613047)
+	end)
+end
+coroutine.wrap(HHGCZO_fake_script)()
+local function YGTVLG_fake_script() -- Reality.LocalScript 
+	local script = Instance.new('LocalScript', Reality)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-107.997375, 137.771698, 385.687347, 0.445247114, -6.25444869e-08, 0.895407736, -4.8328431e-08, 1, 9.38819014e-08, -0.895407736, -8.50742978e-08, 0.445247114)
+	wait(3)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(151.811401, -38.425518, -105.436066, -0.839322805, -0.543617427, 0.00415827148, 0.395983338, -0.606105387, 0.689806819, -0.372470647, 0.580617249, 0.7239815)
+	wait(3)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-682.101135, -38.6500092, 768.047546, -0.095877856, -9.79478685e-08, 0.995393097, -1.00683346e-08, 1, 9.74313963e-08, -0.995393097, -6.80437318e-10, -0.095877856)
+	wait(3)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(286.385193, -3.09320092, -213.603058, 0.298990726, -9.54449249e-08, -0.954255998, -1.91557192e-09, 1, -1.0062044e-07, 0.954255998, 3.19125242e-08, 0.298990726)
+	end)
+end
+coroutine.wrap(YGTVLG_fake_script)()
+local function AGJWP_fake_script() -- AutoFarm.LocalScript 
+	local script = Instance.new('LocalScript', AutoFarm)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		_G.Spam = true
+	
+		while _G.Spam == true do wait()
+			local args = {
+				[1] = true
+			}
+	
+			game:GetService("ReplicatedStorage").RemoteEvents.Other.DisintegrateEvent:FireServer(unpack(args))
+		end
+	end)
+end
+coroutine.wrap(AGJWP_fake_script)()
+local function OSEHIEA_fake_script() -- WalkSpeed.LocalScript 
+	local script = Instance.new('LocalScript', WalkSpeed)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 60
+	end)
+end
+coroutine.wrap(OSEHIEA_fake_script)()
+local function UAYB_fake_script() -- StopFarm.LocalScript 
+	local script = Instance.new('LocalScript', StopFarm)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		_G.Spam = false
+	
+		while _G.Spam == true do wait()
+			local args = {
+				[1] = true
+			}
+	
+			game:GetService("ReplicatedStorage").RemoteEvents.Other.DisintegrateEvent:FireServer(unpack(args))
+		end
+	end)
+end
+coroutine.wrap(UAYB_fake_script)()
+local function MPKNFZQ_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	frame = script.Parent.MainFrame
+	frame.Draggable = true
+	frame.Selectable = true
+	frame.Active = true
+end
+coroutine.wrap(MPKNFZQ_fake_script)()
